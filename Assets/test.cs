@@ -44,13 +44,13 @@ public class test : MonoBehaviour {
         for(int i = 0; i < array.Length; i++)
         {
             Debug.Log(array[i]);
-        };
+        }
 
         //配列arrayの要素の値を逆順に表示する
         for(int i = array.Length - 1; i >= 0; i--)
         {
             Debug.Log(array[i]);
-        };
+        }
 
         //魔法攻撃関数の使用
         Boss boss = new Boss();
